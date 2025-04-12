@@ -20,9 +20,15 @@
   .text-balance {
     text-wrap: balance;
   }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
 }
-
-
 
 @layer base {
   :root {
@@ -79,8 +85,6 @@
     --chart-5: 340 75% 55%;
   }
 }
-
-
 
 @layer base {
   * {
